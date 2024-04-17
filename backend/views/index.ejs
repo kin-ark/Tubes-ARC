@@ -28,7 +28,7 @@
 
     <!-- NAVBAR START -->
     <nav class="navbar">
-      <a href="index.html" class="navbar-logo"
+      <a href="/" class="navbar-logo"
         >A<span>M</span>B<span>A</span>T<span>R</span>O<span>N
       </a>
 
@@ -178,7 +178,7 @@
         })
         .then(response => {
           if (response.ok) {
-            alert("Order saved successfully! We'll contact you for further details.");
+            alert("Order submitted! We'll contact you for payment and shipping details.");
           } else {
             throw new Error('Error saving order');
           }
